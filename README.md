@@ -109,4 +109,4 @@ molinetes_ok <- molinetes %>% filter(dia_anomalo == 0)   # sin el 31/10
 
 ## Autor
 
-Tomás - [GitHub](https://github.com/tomasgalvezvera) - [LinkedIn](https://linkedin.com/in/tomasggalvezvera)
+Tomás Galvez Vera - [GitHub](https://github.com/tomasgalvezvera) - [LinkedIn](https://linkedin.com/in/tomasggalvezvera)
