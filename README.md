@@ -88,22 +88,7 @@ El CSV exportado en la etapa 1 es el punto de unión entre la limpieza y el aná
 
 1. Descargar `molinetes_2024.zip` desde la fuente.
 2. **Etapa 1:** abrir el notebook en Google Colab y ejecutarlo completo (la lectura de los 24 archivos tarda unos 4 minutos). Genera `molinetes_2024.csv`.
-3. **Etapa 2:** leer la base en R:
-
-```r
-library(readr)
-library(dplyr)
-
-molinetes <- read_csv(
-  "molinetes_2024.csv",
-  col_types = cols(
-    fecha  = col_date(),
-    franja = col_factor(levels = c("Madrugada", "Pico mañana", "Valle", "Pico tarde", "Noche"))
-  )
-)
-
-molinetes_ok <- molinetes %>% filter(dia_anomalo == 0)   # sin el 31/10
-```
+3. **Etapa 2:** analisis en R Studio ( en proceso )
 
 ---
 
